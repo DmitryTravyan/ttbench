@@ -1,0 +1,20 @@
+[package]
+name = "ttbench"
+description = "Tarantool load testing tool"
+license = "FreeBSD"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+authors = ["Dmitry Travyan <dtrser@gmail.com>"]
+
+[dependencies]
+anyhow = "1.0.80"
+clap = { version = "4.5.1", features = ["derive", "env"] }
+crc = "3.0.1"
+rand = "0.8.5"
+rmp-serde = "1.1.2"
+rmpv = { version = "1.0.1", features = ["serde"] }
+serde = { version = "1.0.197", features = ["derive"] }
+tarantool-rs = "0.0.10"
+tokio = { version = "1.36.0", features = ["rt-multi-thread"] }
+uuid = { version = "1.7.0", features = ["v4", "fast-rng"] }

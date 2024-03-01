@@ -1,0 +1,6 @@
+[coverage]
+release = true
+
+[report]
+out = ["Xml"]
+

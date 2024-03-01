@@ -1,0 +1,24 @@
+---
+tarantool.router-1:
+  advertise_uri: localhost:3031
+  http_port: 9081
+
+tarantool.router-2:
+  advertise_uri: localhost:3032
+  http_port: 9082
+
+tarantool.storage-1-1:
+  advertise_uri: localhost:3033
+  http_port: 9083
+
+tarantool.storage-1-2:
+  advertise_uri: localhost:3034
+  http_port: 9084
+
+tarantool.storage-2-1:
+  advertise_uri: localhost:3035
+  http_port: 9085
+
+tarantool.storage-2-2:
+  advertise_uri: localhost:3036
+  http_port: 9086
